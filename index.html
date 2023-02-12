@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- css-link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- google-font -->
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@300;500;600&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | [Blogr]</title>
+
+</head>
+<body>
+
+<div id="container">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <section id="top-section">
+
+    <div class="heading">
+       
+      <div class="logo-section">
+
+       <img style="height: 100%;" src="./images/logo.svg" alt="" class="logo">
+       
+      <nav class="nav-bar-desktop">
+
+         <ul class="menu-list-ds">
+
+          <div class="mini-bar">
+
+            <li class="list pr">Product <img class=" img-1" style= "width: auto;" src="./images/icon-arrow-light.svg" alt=""></li>
+            <ul class="wallpaper left-mini-list" style="list-style: none;">
+             <li>Overview</li>
+             <li>Pricing</li>
+             <li>Marketplace</li>
+             <li>features</li>
+             <li style="margin: 0;">integration</li>
+           </ul>
+
+          </div>
+
+          <div class="mini-bar">
+
+            <li class="list co">Company <img class="img-1" style="width: auto;" src="./images/icon-arrow-light.svg" alt=""></li>
+            <ul class="wallpaper middel-mini-list" style="list-style: none;">
+             <li>About</li>
+             <li>Team</li>
+             <li>Blog</li>
+             <li style="margin: 0;">Careers</li>
+           </ul>
+
+          </div>
+
+          <div  class="mini-bar">
+
+            <li class="list cn">Connect <img class="img-1" style="width: auto;" src="./images/icon-arrow-light.svg" alt=""></li>
+            <ul class="wallpaper right-mini-list" style="list-style: none;">
+              <li>Contact</li>
+              <li>Newsletter</li>
+              <li style="margin: 0;">LinkedIn</li>
+           </ul>
+
+          </div>
+           
+           
+         </ul>
+
+     </nav>
+      </div>
+
+      <nav class="nav-bar mobile">
+
+        <ul class="menu-bar">
+          <li id="product" class=" product this">Product <img class="click-1" style="width: auto;" src="./images/icon-arrow-dark.svg" alt=""></li>
+          <ul class="mini-list hide top" style="list-style: none;">
+            <li>Overview</li>
+            <li>Pricing</li>
+            <li>Marketplace</li>
+            <li>features</li>
+            <li style="margin: 0;">integration</li>
+          </ul>
+          <li id="company"  class="company this">Company <img class="click-2" style="width: auto;" src="./images/icon-arrow-dark.svg" alt=""></li>
+          <ul class="mini-list hide middel" style="list-style: none;">
+            <li>About</li>
+            <li>Team</li>
+            <li>Blog</li>
+            <li>Careers</li>
+          </ul>
+          <li id="connect"  class="connect this">Connect <img class="click-3" style="width: auto;" src="./images/icon-arrow-dark.svg" alt=""></li>
+          <ul class="mini-list hide buttom" style="list-style: none;">
+            <li>Contact</li>
+            <li>Newsletter</li>
+            <li>LinkedIn</li>
+          </ul>
+        </ul>
+        <hr>
+        <div class="loging">
+          <ul class="loging-bar">
+            <button class="btn-3"><li style="margin: 0;">Login</li></button>
+            <button class="btn-4"><li style="margin: 0;">Sign Up</li></button>
+          </ul>
+        </div> 
+
+      </nav>
+
+      <div class="">
+        <img src="./images/icon-hamburger.svg" alt="" class="open-list">
+        <img src="./images/icon-close.svg" alt="" class="close-list">
+      </div>
+
+     <div class="login-ds">
+       <button class="btn-5">Login</button>
+       <button class="btn-1">Sing Up</button>
+     </div>
+
+ 
+    </div>
+    
+    <div class="intro">
+      
+      <h1 class="big-title">A modern publishing platform</h1>
+      <p class="par-1">Grow your audience and build your online brand</p>
+
+      <div class="buttons">
+        <button class="btn-1">Start for Free</button>
+        <button class="btn-2">Learn More</button>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="middel-section">
+
+    <h2 style="margin: 0; padding: 0 6%;" class="title-1">Designed for the future</h2>
+
+      <div class="float-one">
+        <img src="images/illustration-editor-mobile.svg" alt="" class="edit-img">
+        <img src="images/illustration-editor-desktop.svg" alt="" class="edit-img-ds">
+        <div>
+          <div class="semi-part">
+            <h3>Introducing an extensible editor</h3>
+            <p>Blogr features an eceedingly intuitive interface which lets you focus on one thing: creating content.The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, bideoas, and Markdown. Extensiblility with plugins and themes provide easy ways to add functionality or cahnge the looks of a blog.</p>
+          </div>
+          <div class="semi-part">
+            <h3>Robust content management</h3>
+            <p>Flexible content management enables ses to easily move through posts.Increase the usablity of your blog by adding customized categories, sections, format, or flow. With this functionality, you're in full control.</p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="float-two">
+        <img src="images/illustration-phones.svg" alt="" class="phone-img">
+        <div class="semi-part">
+          <h3  class="phone-title">State of the Art Infrastructure</h3>
+          <p id="with" class="phone-par">With realiability and speed in mind, worldwide data centers provide the backbon for ultra-fast connectiviy. This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.</p>
+        </div>
+      </div>
+
+      <div class="float-three">
+        <div></div>
+        <img src="images/illustration-laptop-mobile.svg" alt="" class="laptop-img">
+        <img src="images/illustration-laptop-desktop.svg" alt="" class="laptop-img-ds">
+        <div>
+          <div class="semi-part">
+            <h3>Free, open, simple</h3>
+            <p>Bolgr is a free and open source application backed by a large communty of helpful develpers. It supports features such as code syntacx highlighting, RSS feeds, social media integration, third-party commenting tools, and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.</p>
+          </div>
+          <div class="semi-part">
+            <h3>Poweful tooling</h3>
+            <p id="Batters">Batters included. We built a simple and straightfoward CLI tool that makes customization and deployment a breeze, but capable of produing even the most complicated sites.</p>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <section id="bottom-section">
+
+    <img src="./images/logo.svg" alt="" class="logo logo-phone">
+
+     <div class="more-part">
+      <h4>Product</h4>
+
+      <ul>
+        <li>Overview</li>
+        <li>Pricing</li>
+        <li>Marketplace</li>
+        <li>features</li>
+        <li>integration</li>
+      </ul>
+     </div>
+
+     <div class="more-part">
+      <h4>Company</h4>
+
+      <ul>
+        <li>About</li>
+        <li>Team</li>
+        <li>Blog</li>
+        <li>Careers</li>
+      </ul>
+
+     </div>
+
+     <div class="more-part">
+      <h4>Connect</h4>
+
+      <ul>
+        <li>Contact</li>
+        <li>Newsletter</li>
+        <li>LinkedIn</li>
+      </ul>
+
+     </div>
+
+  </section>
+
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
